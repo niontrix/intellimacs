@@ -30,3 +30,9 @@ source ~/.intellimacs/extra/toggles.vim
 source ~/.intellimacs/extra/ui_toggles-themes.vim
 source ~/.intellimacs/extra/windows.vim
 source ~/.intellimacs/extra/zoom.vim
+
+
+" Overwrite Jump keybindings with Easymotion if g:Intellimacs_Use_EasyMotion is set to 1
+if g:Intellimacs_Use_EasyMotion
+  source ~/.intellimacs/extra/easymotion.vim
+end

@@ -56,6 +56,9 @@ Read [[file:docs/KEYBINDINGS.org][KEYBINDINGS.org]] to see all 200+ available ke
   #+begin_src vimrc
   source ~/.intellimacs/spacemacs.vim
 
+  " (Optional) Use EasyMotion instead of AceJump (plugin installation and extra layer required)
+  let g:Intellimacs_Use_EasyMotion = 1
+
   " (Optional) Enable other Intellimacs modules
   source ~/.intellimacs/extra.vim
   source ~/.intellimacs/major.vim
